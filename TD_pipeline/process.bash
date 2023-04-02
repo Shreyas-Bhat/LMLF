@@ -1,8 +1,8 @@
 #!/bin/bash
 
-input="smiles_total_4.txt";
+#input="smiles_total_4.txt"; (better to take as an argument)
+input=$1
 
-<<comment
 mkdir -p mol2;
 mkdir -p pl;
 
@@ -36,12 +36,13 @@ do
 done;
 
 echo "Generate BK facts (groups and rings) ...";
+cp pl/$input.pl tmp/$input.pl;
 yap <<+
 :- consult(main).
 :- gen.
 +
 mv two_dim.pl pl/$input\_two_dim.pl;
-comment
+rm tmp/$input.pl;
 
 mkdir -p smi_pp
 rm -f smi_pp/$input.*
@@ -57,7 +58,7 @@ do
 done;
 
 echo "Generating SMILES++ strings ...";
-rm input.pl two_dim.pl;
+rm -f input.pl two_dim.pl;
 ln -s smi_pp/$input.in input.pl;
 ln -s pl/$input\_two_dim.pl two_dim.pl;
 yap <<+
@@ -67,7 +68,7 @@ yap <<+
 :- told.
 +
 paste -d"$" output.txt smi_pp/$input.y > smi_pp/$input.smipp;
-mv output.txt smi_pp/output.txt;
+mv output.txt smi_pp/$input\_output.txt;
 rm input.pl two_dim.pl;
 
 echo "DONE."
