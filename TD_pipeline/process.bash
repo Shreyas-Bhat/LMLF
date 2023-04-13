@@ -1,5 +1,18 @@
 #!/bin/bash
 
+if [ "$#" -eq 0 ]
+then
+	echo "No input SMILES file passed!"
+    echo "USAGE: bash $0 <SMILES_file> <enter>"
+    exit 1
+fi
+
+if [ "$1" == "--h" ] 
+then
+    echo "USAGE: bash $0 <SMILES_file> <enter>"
+    exit 1
+fi
+
 #input="smiles_total_4.txt"; (better to take as an argument)
 input=$1
 
