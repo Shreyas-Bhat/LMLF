@@ -1,0 +1,150 @@
+{"smiles": "Cn1c(=O)c2c(ncn2C)n(C)c1=O", "label": "1"}
+{"smiles": "C=C1CC[C@H](O)C/C1=C/C=C1\\CCC[C@]2(C)[C@@H]([C@H](C)CCCC(C)(C)O)CC[C@@H]12", "label": "1"}
+{"smiles": "C=C1/C(=C\\C=C2/CCC[C@]3(C)[C@@H]([C@H](C)/C=C/[C@@H](O)C4CC4)CC[C@@H]23)C[C@@H](O)C[C@@H]1O", "label": "1"}
+{"smiles": "C=C1/C(=C\\C=C2/CCC[C@]3(C)[C@@H]([C@H](C)CCCC(C)(C)O)CC[C@@H]23)C[C@@H](O)C[C@@H]1O", "label": "1"}
+{"smiles": "CC(=O)[O-].CC(=O)[O-].[Ca+2]", "label": "1"}
+{"smiles": "[Ca+2].[Cl-].[Cl-]", "label": "1"}
+{"smiles": "O=C([O-])C(O)[C@H](O)[C@@H](O)[C@H](O)[C@H](O)CO.O=C([O-])C(O)[C@H](O)[C@@H](O)[C@H](O)[C@H](O)CO.[Ca+2]", "label": "1"}
+{"smiles": "CN(C)C(=O)OC1N=C(c2ccccc2)c2cc(Cl)ccc2N(C)C1=O", "label": "1"}
+{"smiles": "Cc1ccc([C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)cc1Cc1ccc(-c2ccc(F)cc2)s1", "label": "1"}
+{"smiles": "CCOc1nc2cccc(C(=O)O)c2n1Cc1ccc(-c2ccccc2-c2nn[nH]n2)cc1", "label": "1"}
+{"smiles": "CC1/C=C\\C=C/C=C\\C=C/C=C\\C=C/C=C\\C(OC2O[C@H](C)[C@@H](O)[C@H](N)[C@@H]2O)CC2OC(O)(CC(O)CC(O)CC(O)CC(=O)CCCC(=O)CC(=O)OC1C(C)CC(C)C(O)CC(=O)c1ccc(N)cc1)CC(O)C2C(=O)O", "label": "1"}
+{"smiles": "COCCOC[C@H](CC1(C(=O)N[C@H]2CC[C@@H](C(=O)O)CC2)CCCC1)C(=O)Oc1ccc2c(c1)CCC2", "label": "1"}
+{"smiles": "CCCCCOC(=O)Nc1nc(=O)n([C@@H]2O[C@H](C)[C@@H](O)[C@H]2O)cc1F", "label": "1"}
+{"smiles": "C[C@@H]1NC(=O)[C@@H](N)CNC(=O)[C@H]([C@H]2CCN=C(N)N2)NC(=O)/C(=C\\NC(N)=O)NC(=O)[C@H](CNC(=O)C[C@@H](N)CCCN)NC1=O.NCCC[C@H](N)CC(=O)NC[C@@H]1NC(=O)[C@H](CO)NC(=O)[C@@H](N)CNC(=O)[C@H]([C@H]2CCN=C(N)N2)NC(=O)/C(=C\\NC(N)=O)NC1=O", "label": "1"}
+{"smiles": "C[C@H](CS)C(=O)N1CCC[C@H]1C(=O)O", "label": "1"}
+{"smiles": "C[N+](C)(C)CCOC(N)=O.[Cl-]", "label": "1"}
+{"smiles": "NC(=O)N1c2ccccc2C=Cc2ccccc21", "label": "1"}
+{"smiles": "CC1(C)S[C@@H]2[C@H](NC(=O)C(C(=O)O)c3ccccc3)C(=O)N2[C@H]1C(=O)O", "label": "1"}
+{"smiles": "CC[C@H](C)[C@@H]1NC(=O)[C@H](Cc2ccc(OC)cc2)NC(=O)CCCSC[C@@H](C(=O)N2CCC[C@H]2C(=O)N[C@@H](CC(C)C)C(=O)NCC(N)=O)NC(=O)[C@H](CC(N)=O)NC(=O)[C@H](CCC(N)=O)NC1=O", "label": "1"}
+{"smiles": "C[C@@](Cc1ccc(O)c(O)c1)(NN)C(=O)O.O", "label": "1"}
+{"smiles": "CCOC(=O)n1ccn(C)c1=S", "label": "1"}
+{"smiles": "CN(C)CCOC(c1ccc(Cl)cc1)c1ccccn1", "label": "1"}
+{"smiles": "N.N.O=C1O[Pt]OC(=O)C12CCC2", "label": "1"}
+{"smiles": "CCCCC[C@](C)(O)/C=C/[C@@H]1[C@@H](C/C=C\\CCCC(=O)[O-])[C@@H](O)C[C@@H]1O.[NH3+]C(CO)(CO)CO", "label": "1"}
+{"smiles": "CC(C)C[C@H](NC(=O)[C@H](CCc1ccccc1)NC(=O)CN1CCOCC1)C(=O)N[C@@H](Cc1ccccc1)C(=O)N[C@@H](CC(C)C)C(=O)[C@@]1(C)CO1", "label": "1"}
+{"smiles": "NC(=O)N[C@@H](CCC(=O)O)C(=O)O", "label": "1"}
+{"smiles": "CCCC(C)(COC(N)=O)COC(=O)NC(C)C", "label": "1"}
+{"smiles": "O=NN(CCCl)C(=O)NCCCl", "label": "1"}
+{"smiles": "CCC(=O)c1ccc2c(c1)N(CCN1CCN(CCO)CC1)c1ccccc1S2", "label": "1"}
+{"smiles": "CC(C(=O)O)c1ccc2c(c1)[nH]c1ccc(Cl)cc12", "label": "1"}
+{"smiles": "CC(C)(C)NCC(O)COc1cccc2c1CCC(=O)N2", "label": "1"}
+{"smiles": "COc1ccccc1OCCNCC(O)COc1cccc2[nH]c3ccccc3c12", "label": "1"}
+{"smiles": "CCC(C)CC(C)CCCCCCCCC(=O)N[C@H]1C[C@@H](O)[C@@H](NCCN)NC(=O)[C@@H]2[C@@H](O)CCN2C(=O)[C@H]([C@H](O)CCN)NC(=O)[C@H]([C@H](O)[C@@H](O)c2ccc(O)cc2)NC(=O)[C@@H]2C[C@@H](O)CN2C(=O)[C@H]([C@@H](C)O)NC1=O", "label": "1"}
+{"smiles": "CC(=O)OCC1=C(C(=O)O)N2C(=O)[C@@H](NC(=O)CC#N)[C@H]2SC1", "label": "1"}
+{"smiles": "N[C@@H](C(=O)N[C@@H]1C(=O)N2C(C(=O)O)=C(Cl)CS[C@H]12)c1ccccc1", "label": "1"}
+{"smiles": "CC1=C(C(=O)O)N2C(=O)[C@@H](NC(=O)[C@H](N)c3ccc(O)cc3)[C@H]2SC1", "label": "1"}
+{"smiles": "CC(=O)OCC1=C(C(=O)O)N2C(=O)[C@@H](NC(=O)Cc3cccs3)[C@H]2SC1", "label": "1"}
+{"smiles": "Cn1nnnc1SCC1=C(C(=O)O)N2C(=O)[C@@H](NC(=O)[C@H](O)c3ccccc3)[C@H]2SC1", "label": "1"}
+{"smiles": "Cc1nnc(SCC2=C(C(=O)O)N3C(=O)[C@@H](NC(=O)Cn4cnnn4)[C@H]3SC2)s1", "label": "1"}
+{"smiles": "C=CC1=C(C(=O)O)N2C(=O)[C@@H](NC(=O)/C(=N\\O)c3csc(N)n3)[C@H]2SC1", "label": "1"}
+{"smiles": "CO/N=C(\\C(=O)N[C@@H]1C(=O)N2C(C(=O)O)=C(/C=C\\c3scnc3C)CS[C@H]12)c1csc(N)n1", "label": "1"}
+{"smiles": "CO/N=C(\\C(=O)N[C@@H]1C(=O)N2C(C(=O)[O-])=C(C[N+]3(C)CCCC3)CS[C@H]12)c1csc(N)n1", "label": "1"}
+{"smiles": "C=CC1=C(C(=O)O)N2C(=O)[C@@H](NC(=O)/C(=N\\OCC(=O)O)c3csc(N)n3)[C@H]2SC1", "label": "1"}
+{"smiles": "CO/N=C(\\C(=O)N[C@@H]1C(=O)N2C(C(=O)O)=C(CSc3nnnn3C)CS[C@H]12)c1csc(N)n1", "label": "1"}
+{"smiles": "CO[C@@]1(NC(=O)CSCC#N)C(=O)N2C(C(=O)O)=C(CSc3nnnn3C)CS[C@@H]21", "label": "1"}
+{"smiles": "O=C(O)C1=C(CSc2nnnn2CS(=O)(=O)O)CS[C@@H]2[C@H](NC(=O)[C@H](O)c3ccccc3)C(=O)N12", "label": "1"}
+{"smiles": "CCN1CCN(C(=O)NC(C(=O)N[C@@H]2C(=O)N3C(C(=O)O)=C(CSc4nnnn4C)CS[C@H]23)c2ccc(O)cc2)C(=O)C1=O", "label": "1"}
+{"smiles": "NCc1ccccc1CC(=O)N[C@@H]1C(=O)N2C(C(=O)O)=C(CSc3nnnn3CC(=O)O)CS[C@H]12", "label": "1"}
+{"smiles": "CO/N=C(\\C(=O)N[C@@H]1C(=O)N2C(C(=O)O)=C(COC(C)=O)CS[C@H]12)c1csc(N)n1", "label": "1"}
+{"smiles": "CO[C@@]1(NC(=O)C2SC(=C(C(N)=O)C(=O)O)S2)C(=O)N2C(C(=O)O)=C(CSc3nnnn3C)CS[C@@H]21", "label": "1"}
+{"smiles": "O=C1CSC(=S)N1c1ccc(F)cc1F", "label": "0"}
+{"smiles": "CCCn1nnc(NC(=O)c2cccc(OCC)c2)n1", "label": "0"}
+{"smiles": "C/C(=N\\NC(=N)N)c1sc(-c2ccc(C#Cc3ccc(C)cc3)cc2)nc1C", "label": "0"}
+{"smiles": "COc1ccc2c(c1)/C(=C\\c1ccc(C(F)(F)F)cc1)C(=O)CC2", "label": "0"}
+{"smiles": "COc1ccccc1N1C(=O)c2cc3cccc(OC)c3cc2C1=O", "label": "0"}
+{"smiles": "CCN(C(=O)CCn1c(C2CCCN(C(=O)OC(C)(C)C)C2)nc2cc(F)ccc21)C1CCCCC1", "label": "0"}
+{"smiles": "O=C(N/N=C/c1ccccc1O)c1ncccn1", "label": "0"}
+{"smiles": "COc1ccc(CC(=O)c2ccc3c(c2O)C=CC(C)(C)O3)cc1OC", "label": "0"}
+{"smiles": "C=CC(=O)Nc1cccc(-n2c(=O)n(C)c3cnc(Nc4ccc(Oc5ccnc(C(=O)NC)c5)cc4)nc32)c1", "label": "0"}
+{"smiles": "O=C(Cn1cc(-c2ccccc2)nn1)N[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O", "label": "0"}
+{"smiles": "COP(C)(=O)NCCNc1nonc1/C(=N/O)Nc1cccc(C)c1", "label": "0"}
+{"smiles": "O=C1C(Cl)=C(Nc2ccc(OC(F)(F)F)cc2)C(=O)c2nc(-c3ccccn3)c(-c3ccccn3)nc21", "label": "0"}
+{"smiles": "CCOc1cc(C)c2cc3c(C)cc(=O)n4c3c(c2n1)OCC4", "label": "0"}
+{"smiles": "CC(CCl)N(C)Cc1ccc2oc3cc(Cl)ccc3c(=O)c2c1", "label": "0"}
+{"smiles": "C#CCN1CCC(CCc2ccccc2)CC1", "label": "0"}
+{"smiles": "Cc1nnc2n1CCN(C(=O)c1cc(Cl)c(Br)[nH]1)C2", "label": "0"}
+{"smiles": "O=C(O)C(=O)/C=C(\\O)c1ccc(Cl)c(Cl)c1", "label": "0"}
+{"smiles": "CCC(C)CN([C@@H](CCCCNC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)O)S(=O)(=O)c1ccc(C)cc1", "label": "0"}
+{"smiles": "[N-]=[N+]=NC[C@@H]1CO[C@@](CCc2ccc(Cl)cc2)(Cn2ccnc2)O1", "label": "0"}
+{"smiles": "CN[C@@H]1CC[C@@H](c2ccccc2OC)c2ccccc21", "label": "0"}
+{"smiles": "Cc1oc(-c2ccccc2)nc1CN1CCC[C@@H](C(=O)NCc2cccc(N)n2)C1", "label": "0"}
+{"smiles": "O=C(NCCNC(=O)c1ccc(-c2ccccc2)c(Cl)c1)c1ccc(O[C@H]2C3CC4CC2C[C@](C(=O)O)(C4)C3)cc1", "label": "0"}
+{"smiles": "CNCC[C@H](c1ccc(Cl)c(Cl)c1)c1cccc2ccccc12", "label": "0"}
+{"smiles": "Cc1ccc2nc(C(=O)N3CC(=O)N(Cc4ccccc4)[C@@H](Cc4ccccc4)C3)cn2c1", "label": "0"}
+{"smiles": "N=C1NC(=O)N2CC12", "label": "0"}
+{"smiles": "COc1ccc(S(=O)(=O)Nc2ccc(N[C@@H](Cc3c[nH]c4ccccc34)C(=O)O)c3ccccc23)cc1", "label": "0"}
+{"smiles": "O=C(/C=C/c1cccc(CNc2cc3c([nH]c4ccccc43)c(-c3ccc([N+](=O)[O-])cc3)n2)c1)NO", "label": "0"}
+{"smiles": "CS(=O)(=O)N1CCN(c2ccc(Nc3nc(-c4cnc(N)cc4C(F)(F)F)cc(N4CCOCC4)n3)cc2)CC1", "label": "0"}
+{"smiles": "Cc1ccc(-c2cn(C)cc2[C@@H](c2ccccc2)n2ccnc2)cc1", "label": "0"}
+{"smiles": "O=C1N(Cc2ccccc2Cl)c2cccn2S(=O)(=O)N1Cc1ccccc1", "label": "0"}
+{"smiles": "O=C(Nc1ccc2c(c1)OCO2)C1CC1(Cl)Cl", "label": "0"}
+{"smiles": "Cl.c1ccc(Nc2cc3nc4ccccc4n(-c4ccccc4)c-3c/c2=N/CC23CCCN2CCC3)cc1", "label": "0"}
+{"smiles": "CC(C)(C)OC(=O)N1CCc2c(sc3ncnc(Nc4ccc(Cl)cc4F)c23)C1", "label": "0"}
+{"smiles": "O=C(O)c1ccc(-n2c(/C=C/c3cccc([N+](=O)[O-])c3)nc3cccc(Cl)c3c2=O)cc1", "label": "0"}
+{"smiles": "CC(C)CC(N/C(C(=O)NCc1ccccc1)=C1\\C(C(=O)NO)=Nc2cc(Cl)ccc21)C(=O)NO", "label": "0"}
+{"smiles": "COc1ccc(CCN(CCN(C)C)c2ccc(C)cc2)cc1", "label": "0"}
+{"smiles": "CC(C)(C)c1ccc(-c2cc(CNCC3CCNCC3)sc2-c2ccc(CN)cc2)cc1", "label": "0"}
+{"smiles": "NNC(=O)COc1ncn(-c2ccccc2)n1", "label": "0"}
+{"smiles": "Cc1cc(C)cc(C(=O)NCN2CCC(c3cccc[n+]3[O-])CC2)c1", "label": "0"}
+{"smiles": "C=CC(=O)Nc1ccccc1CN(C(=O)Nc1cccc(C(F)(F)F)c1)C1CCN(C(C)CCC)CC1", "label": "0"}
+{"smiles": "O=N/N=c1\\o[n-][n+](CCc2ccccc2)c1Cc1/c(=N/N=O)o[n-][n+]1CCc1ccccc1", "label": "0"}
+{"smiles": "COc1c(CNCc2cccnc2N2CCN(C)CC2)c(C)nn1C", "label": "0"}
+{"smiles": "Cc1ccc(-c2ccccc2)n1-c1ccc(O)cc1", "label": "0"}
+{"smiles": "C[C@H](NC(=O)N(C)C)c1ccc(O[C@H]2CCN(c3nc(N4CCC5(CC5)C4)ncc3F)C2)cc1", "label": "0"}
+{"smiles": "COc1ccc2[nH]c(C)c(C(=O)CN(C)CC3OCCO3)c2c1", "label": "0"}
+{"smiles": "CC(C)c1ccccc1OCC(=O)N(C)CC(=O)Nc1ccc(F)cc1", "label": "0"}
+{"smiles": "Cc1cc(Nc2ccc(N3CCN(C)CC3)cc2)n2nc(SCc3ccccc3)nc2n1", "label": "0"}
+{"smiles": "CN(C)C(=O)Oc1ccc2cc(C(=O)NC3CCCCCC3)ccc2c1Br", "label": "0"}
+{"smiles": "C[C@@H]1CC[C@H]2[C@@H](C)[C@H](N3CCN(C(=S)SCc4ccc(Br)cc4)CC3)O[C@@H]3O[C@@]4(C)CC[C@@H]1[C@@]23OO4", "label": "0"}
+{"smiles": "COc1ccc(OC)c2sc(N3C(=O)/C(=C/c4ccc(N(C)C)cc4)N=C3c3ccccc3)nc12", "label": "0"}
+{"smiles": "Here's a SMILES notation for a molecule similar to the given examples with 1 class:\n\nCC1=C(C)C(C)=C(C)C1=O", "label": "1"}
+{"smiles": "Cn1c(=O)c2c(ncn2C)n(C)c1=O is a 1-class molecule.", "label": "1"}
+{"smiles": "Here is a SMILES molecule similar to the given examples that is in 1-class: \n\n'CC1=C2C(=O)N(CC(=O)N(C)C2=O)c2ccccc2C(=O)N(C)C1=O'", "label": "1"}
+{"smiles": "Here's a SMILES string for a molecule similar to the ones given, but with a \"1\" in the final position of the SMILES string indicating that it is a 1-class molecule:\n\nCC(=O)Nc1cccc(c1)C(=O)Nc1cccc(c1)C(=O)O1", "label": "1"}
+{"smiles": "Here is a SMILES molecule that is similar to the given molecules and belongs to class 1:\n\nCC(=O)N[C@@H](C(C)C)C(=O)N[C@@H](C(C)C)C(=O)C1=CC=C(C=C1)Cl", "label": "1"}
+{"smiles": "Here's a SMILES string of a molecule similar to the ones given but with a 1-class label:\n\n'CCC(=O)N[C@@H]1CC[C@H]2[C@@H]3CCC4=CC(=O)CC[C@]4(C)[C@H]3CC[C@]12C' (1)", "label": "1"}
+{"smiles": "Here is a SMILES representation of a molecule similar to the given examples, but with a 1-class:\n'COc1cc2c(cc1OC)N(CC=C2)C1CCC(CC1)C(O)C=C1CCCCC1'", "label": "1"}
+{"smiles": "Here is a SMILES string for a molecule similar to the ones provided that is in class 1:\n\n'CN(CC(=O)NCCSCc1ccc(OCc2ccccc2)cc1)CCCCC(=O)NCCSCc1ccc(OCc2ccccc2)cc1' \n\nThis molecule contains carbon, hydrogen, nitrogen, oxygen and sulfur atoms, has a carboxylic acid group and an amide group, and has two phenyl rings attached to it. It is similar to the provided SMILES strings in terms of containing heteroatoms and having a diverse functional group composition.", "label": "1"}
+{"smiles": "Here's a SMILES representation of a molecule similar to the ones provided that belongs to 1-class:\n\n'CC1C(O)CC2C1C(OC(=O)C3=C(N)N=CN=C3N)C2=O'", "label": "1"}
+{"smiles": "Here is a SMILES string for a molecule similar to the ones given that belongs to the 1-class:\n\n'Cn1c(=O)c2c(ncn2C)n(C)c1=O'", "label": "1"}
+{"smiles": "CC1/C=C\\C=C/C=C/C=C/C=C/C=C/C(OC2O[C@H](C)[C@@H](O)[C@H](N)[C@@H]2O)CC2OC(O)(CC(O)CC(O)CC(O)CC(=O)CCCC(=O)CC(=O)OC1C(C)CC(C)C(O)CC(=O)c1ccc(N)cc1)CC(O)C2C(=O)O is an example of a molecule belonging to the 1-class.", "label": "1"}
+{"smiles": "Sorry, I cannot generate a molecule based on the input you provided.  Please provide a valid SMILES string.", "label": "1"}
+{"smiles": "Here's a SMILES string for a molecule that is similar to the given ones and belongs to class 1:\n\nCC(=O)N[C@@H](CCCCNc1ncccc1C(=O)N[C@H](Cc1c(C)cccc1C(=O)O)C(C)C)[C@H](O)CN1CCOCC1", "label": "1"}
+{"smiles": "Here is a SMILES for a molecule that is similar to the ones provided and belongs to class 1: \n\n'CC(=O)O[C@H](Cc1ccccc1)[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@@H]1O'", "label": "1"}
+{"smiles": "I'm sorry, but I cannot generate a specific molecule based on the information you provided. Can you please provide more details about what you mean by \"1-class\"?", "label": "1"}
+{"smiles": "I'm sorry, but I cannot accurately generate a molecule similar to the provided SMILES strings without additional information. Could you please provide me with more specific information regarding the characteristics of the desired molecule, such as the functional group, number of atoms, or specific chemical properties? This will enable me to better generate an appropriate molecule for you.", "label": "1"}
+{"smiles": "Unfortunately, the given list of SMILES does not provide any information about the classification of each molecule. Can you please provide more details on what you mean by \"1-class\"?", "label": "1"}
+{"smiles": "Sorry, but I am not able to generate a SMILES molecule based on the input you provided as it is an already existing SMILES representation. However, I can generate a new molecule for you. \n\nHere is a SMILES representation for a molecule with one class:\n\nCC(C)C1=NC(=O)N(C1=O)C1CCOC1", "label": "1"}
+{"smiles": "I'm sorry, I need more information to generate a molecule. What do you mean by \"1-class\"?", "label": "1"}
+{"smiles": "I'm sorry, I cannot generate a molecule based on that input. Can you please provide more information or a specific SMILES code for me to work with?", "label": "1"}
+{"smiles": "Here is a SMILES representation of a molecule that is similar to the given set and belongs to class 1:\n\nCC(=O)Nc1cccc(NC(=O)c2ccc(Cl)cc2)c1C1COC(C1)C(=O)N[C@@H](C[C@@H](C)NC(=O)CNC(=O)OC(C)(C)C)C(C)C\n\nNote: This is just one possible molecule that is similar to the given set and belongs to class 1. There may be many others with different SMILES representations.", "label": "1"}
+{"smiles": "Here is a SMILES representation of a similar molecule to the given inputs that belongs to class 1:\n'CCOC(=O)C1=C(C)N=C(N)N1CC1CCN(CC1)C(=O)C1=C(C)C=C(Cl)C=C1'", "label": "1"}
+{"smiles": "Here's an example of a molecule that is similar to the ones provided and belongs to 1-class:\n\nCC1=C(C=C(C=C1)S(=O)(=O)N)C(=O)OCC2COC3=CC=CC=C3O2\n\nThis molecule has a similar structure to the other molecules provided and contains a sulfonamide functional group, which is commonly found in 1-class molecules.", "label": "1"}
+{"smiles": "Here is a new SMILES molecule that belongs to class 1:\n\n'CC(=O)O[C@@H]1[C@@H](O)C[C@]2([C@H]1[C@H](O[C@@H]3[C@@H]2[C@@H](C(=C[C@@H]4CC(=O)C=C[C@@]43C)C)O[C@@H]5[C@@H](O[C@H](CO)[C@@H](O)[C@H](O)[C@H]5O)C)O[C@@H]6[C@@H]([C@@H](O)[C@](O)(C(=O)[C@H](C(=O)O)N)[C@H](O)C6=O)O'\n\nThis molecule is similar in structure to the given SMILES, with multiple rings and functional groups, and belongs to the same class of molecules.", "label": "1"}
+{"smiles": "Here is a SMILES string for a molecule that is similar to the given list and belongs to class 1:\n\nCCOC(=O)C1=C([C@@H]2[C@@H]([C@H](C[C@]3(C)[C@@H]([C@@](O3)(C)C)O[C@@H]3[C@@H]([C@H](O[C@@H]4[C@@H](O)[C@H](O)[C@H]([C@@H]4O)N(C)C)O[C@@H]4O[C@H](CO)[C@@H](O)[C@H]([C@@H]4O)N(C)C)[C@@H](C[C@@H]3O2)O)[C@@H]([C@@H](C)[C@@H]([C@@H]1O)O)O)C1CC1", "label": "1"}
+{"smiles": "Here is a SMILES representation of a molecule similar to the given examples that belongs to class 1:\n\n'CC1=C(C)C(=O)OC2=C(CC3(C)[C@@H](C[C@@H](O)C4CC4)C[C@@H]23)C=C1'\n\nThis molecule contains a carbonyl group (C=O) and has a cyclohexene ring, similar to some of the examples provided. However, it is important to note that SMILES strings are not unique and there may be other molecules that can be generated from the given example SMILES strings that also belong to class 1.", "label": "1"}
+{"smiles": "I'm sorry, I am not able to understand the input you provided. Could you please provide a valid input?", "label": "1"}
+{"smiles": "I'm sorry, but I cannot generate a molecule based on the given input. The input provided seems to be a list of strings, but SMILES strings should be formatted as a single string. Additionally, the string format `('SMILES string', 'class')` does not follow the standard format for SMILES strings. Please provide a valid SMILES string and specify the desired class.", "label": "1"}
+{"smiles": "Here is a SMILES molecule similar to the given SMILES strings that belongs to class 1:\n\n'CC(C)(C)OC(=O)C1=CC(=C(C=C1)N2C=NC3=C2C=C(C=C3)C(=O)N(C)CCN(C)C)C(C)(C)C'", "label": "1"}
+{"smiles": "Here is a SMILES representation of a molecule in the same class:\n\nCC1OC(O)C(CC2CCC[C@@]3(C)C[C@H](O)CC[C@]23C)OC1O\n\nThis molecule has a similar carbon backbone structure as the given molecules with two ring structures and multiple double bonds. It also contains hydroxyl and methyl groups, like some of the given molecules.", "label": "1"}
+{"smiles": "One possible molecule that is 1-class based on the given list of SMILES is \n\n'CCOc1nc2cccc(C(=O)O)c2n1Cc1ccc(-c2ccccc2-c2nn[nH]n2)cc1'", "label": "1"}
+{"smiles": "Here is a SMILES representation of a molecule similar to the given list, but belongs to a different class:\n'CC(=O)O[C@@H]1[C@@H](Oc2ccc3c(c2)C(=O)N(Cc2ccccc2)C[C@@H]3N(C)C)C[C@H](O)[C@@H](O)[C@H]1O' (Class 2 molecule)", "label": "1"}
+{"smiles": "Here is a SMILES string for a molecule that is similar to the given list and belongs to class 1:\n\n'CN1CCC[C@H]1C2=CC=C(C=C2)NC(=O)C1=CC=C(C=C1)O'", "label": "1"}
+{"smiles": "Here is a SMILES representation of a similar molecule with 1-class:\n\n'CC(C)(C)[C@@H](NC(=O)c1ccc(cc1)C(F)(F)F)[C@H](O)C(C)C'", "label": "1"}
+{"smiles": "Here's a SMILES string for a molecule that is somewhat similar to the given examples and belongs to the 1-class:\n\nCC(C)c1ccc(Oc2ccc(NC(=O)C3CCNCC3)c(F)c2)cc1\n\nThis molecule has a cyclohexane ring with a substituent (similar to the structure in the first example), as well as an amide functional group (similar to the structure in the eighth example). It also contains a fluorine atom (similar to the structure in the ninth example) and nitrogen atoms (similar to the structures in the fifth and tenth examples).", "label": "1"}
+{"smiles": "Here is a SMILES string for a molecule similar to the given molecules that belongs to 1-class: \n\n'CC[C@H](C)[C@@H](O)C(C)OCC(=O)N[C@@H]1C[C@H]2CC[C@@H]3[C@H]([C@@H]1C[C@]23C)O' \n\nThis molecule contains a cyclic structure with a chiral center and a carboxamide functional group, which are commonly found in 1-class molecules.", "label": "1"}
+{"smiles": "Here is a SMILES string for a molecule that is similar to the given list and belongs to 1 class:\n\n'CCOc1cc(-c2ccc(C(=O)O)cc2)nc2cc(OC)c(O)cc21'\n\nThis molecule has a similar structure to the first SMILES string in the given list, with a few modifications. It contains two rings and a number of functional groups including alcohol, ester, and carboxylic acid groups. It belongs to the 1 class, meaning it is a primary alcohol.", "label": "1"}
+{"smiles": "Here is a molecule in the SMILES format that is 1-class:\n\nCC1C=C(C2CCCCC2)C(C)(C)O[C@@H]1C(O)C#N\n\nThis molecule contains a cyclohexene ring and a nitrile group, similar to the second compound in the given list ([('CC(=O)[O-].CC(=O)[O-].[Ca+2]', '1')]). It also has a hydroxyl group and three methyl groups, like the third compound in the list ([('[Ca+2].[Cl-].[Cl-]', '1')]).", "label": "1"}
+{"smiles": "Here is a SMILES representation of a molecule similar to the given list that belongs to the 1-class:\n\n'CC(C)NCC(O)C(O)CNC'", "label": "1"}
+{"smiles": "Here's a SMILES string for a molecule similar to the ones given that is in the 1-class:\n\n'CC(=O)N[C@@H]1[C@@H](O)[C@H](O)[C@H](O[C@H]2[C@@H](O)CO[C@H](O)[C@H]2O)[C@H](O)[C@@H](O)[C@@H]1O'", "label": "1"}
+{"smiles": "Sorry, I cannot generate a similar molecule to the provided SMILES strings without knowing the specific class you are referring to. Please provide more information about the desired molecule and its class.", "label": "1"}
+{"smiles": "Here's a SMILES molecule that is similar to the given examples and belongs to class 1:\n\nCCN(CC)C(=O)C1CCC(C=C1)OCCc1ccccc1N \n\nThis molecule contains a carbonyl group, a cyclic structure, and an aromatic ring, which are all common features found in the given examples. It also has a tertiary amine group and an ether linkage, which may contribute to its classification as a class 1 molecule.", "label": "1"}
+{"smiles": "Here is a SMILES representation of a molecule that is similar to the given molecules and belongs to class 1:\n\nCCOC(=O)C(C)NC(=O)CCCNC(=O)C(Cc1ccc2c(c1)Cc1ccc(O)cc1O2)NC(=O)C(Cc1c[nH]c2ccccc12)NC(=O)C(Cc1cc2c(cc1O)c1ccccc1C2=O)NC=O", "label": "1"}
+{"smiles": "Here is a SMILES string for a molecule that is similar to the ones provided and belongs to the 1-class:\n\n'CCC(=O)Nc1nc(C2OC(CO)C(O)C(O)C2O)nc(C)c1CNC(C)(C)C(=O)OC(C)C'", "label": "1"}
+{"smiles": "Here's a SMILES for a molecule that is similar to the given list and belongs to the 1-Class:\n\n'CCOc1ccc(C(C)N(C)C(=O)Cc2c(C)nc3c([nH]2)cccc3)cc1'\n\nThis molecule contains a similar functional group as some of the given list, such as the carboxylate (COO-) group and the amide (CONH-) group. Additionally, it contains a substituted aromatic ring similar to some of the other molecules in the list.", "label": "1"}
+{"smiles": "Here is a SMILES representation of a molecule that belongs to the 1-class:\n\n'CC(C)[C@H](N)C(=O)N[C@@H](CC(O)=O)[C@@H](O)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CC(C)C)C(=O)N1CCC[C@H]1C(=O)N[C@@H](CCCNC(N)=N)[C@@H](O)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CCCNC(N)=N)[C@@H](O)C(=O)N[C@@H](CCCNC(N)=N)[C@@H](O)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CCCNC(N)=N)[C@@H](O)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CC(O)=O)[C@@H](O)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CCCNC(N)=N)[C@@H](O)C(=O)N[C@@H](CCCNC(N)=N)[C@@H](O)C(=O)N[C@@H](CCCNC(N)=N)[C@@H](O)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CCCNC(N)=N)[C@@H](O)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CC(O)=O)[C@@H](O)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CCCNC(N)=N)[C@@H](O)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CCCNC(N)=N)[C@@H](O)C(=O)N[C@@H](CCCNC(N)=N)[C@@H](O)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CCCNC(N)=N)[C@@H](O)C(=O)N[C@@H](CCCNC(N)=N)[C@@H](O)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CC(O)=O)[C@@H](O)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CCCNC(N)=N)[C@@H](O)C(=O)N[C@@H](CCCNC(N)=N)[C@@H](O)C(=O)N[C@@H](CCCNC(N)=N)[C@@H](O)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CC(O)=O)[C@@H](O)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CCCNC(N)=N)[C@@H](O)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CCCNC(N)=N)[C@@H](O)C(=O)N[C@@H](CCCNC(N)=N)[C@@H](O)C(=O)N[C@@H](CCCNC(N)=N)[C@@H](O)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CC(O)=O)[C@@H](O)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CCCNC(N)=N)[C@@H](O)C(=O)N[C@@H](CCCNC(N)=N)[C@@H](O)C(=O)N[C@@H](CCCNC(N)=N)[C@@H](O)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CC(O)=O)[C@@H](O)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CCCNC(N)=N)[C@@H](O)C(=O)N[C@@H](CCCNC(N)=N)[C@@H](O)C(=O)N[C@@H](CCCNC(N)=N)[C@@H](O)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CC(O)=O)[C@@H](O)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CCCNC(N)=N)[C@@H](O)C(=O)N[C@@H](CCCNC(N)=N)[C@@H](O)C(=O)N[C@@H](CCCNC(N)=N)[C@@H](O)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CC(O)=O)[C@@H](O)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CCCNC(N)=N)[C@@H](O)C(=O)N[C@@H](CCCNC(N)=N)[C@@H]1CC(C)C'", "label": "1"}
+{"smiles": "Here is a molecule similar to the given SMILES strings that belongs to 1-class:\n\nCC(=O)O[C@H]1C[C@@H](O)[C@H](O[C@H]2[C@H](O)C[C@H](O)[C@@H](O[C@@H]3[C@H](O)C[C@H](O)[C@@H](O[C@@H]4[C@H](O)C[C@H](O)[C@@H](O[C@H]5[C@H](O)C[C@H](O)[C@@H](O[C@@H]6[C@H](O)C[C@H](O)C(O)C(O)C6=O)C(O)C5=O)C(O)C4=O)C(O)C3=O)C(O)C2=O)N\n\nThis SMILES string represents a molecule with a similar structure to the other given SMILES strings. It contains a central sugar backbone with hydroxyl groups, branching off into various functional groups. This molecule belongs to 1-class, which denotes aldehydes and ketones.", "label": "1"}
+{"smiles": "Here's a molecule similar to the given list with 1-class:\n\nCC(=O)NCCC[C@@H]1C(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@@H](C(=O)N[C@@H](C(=O)N(C)C)[C@@H](C)NC(=O)[C@@H](C)NC(=O)[C@H](C[C@H](C)[C@@H](C)O)NC1=O)[C@H](CC(C)C)C)CC(C)C)CCC(=O)N[C@@H](C)C(=O)O\n\nThis is a peptide with 1-class, which is similar to the peptide structures found in the given list. It has 17 amino acid residues and a total of 47 atoms. It is also negatively charged due to the carboxylic acid groups present.", "label": "1"}
+{"smiles": "Here is a SMILES molecule similar to the given list that belongs to class 1:\nCC(=O)Oc1ccc2ccc(NC(=O)[C@@H]3C[C@@H](O)[C@H](O)[C@]3(O)c3ccc(F)cc3)cc2c1", "label": "1"}
+{"smiles": "Here is an example of a SMILES molecule that is similar to the given examples and belongs to 1-class:\n\n'CC(C)(C)OC(=O)C1=CC=CC(NC(=O)[C@H](CC)NC(=O)C2=CC=C(Cl)C=C2)=C1'", "label": "1"}
