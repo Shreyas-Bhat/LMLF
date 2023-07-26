@@ -12,9 +12,6 @@ from rdkit.Chem import rdMolDescriptors as rdmd
 
 #{"label": "1", "smiles": "O=c1[nH]c2cnc(-n3cnc4ccc(F)cc43)nc2n1Cc1cccc(F)c1F"}
 # Set up your API key and model parameters
-#openai.api_key = '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'
-openai.api_key = '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'\
-#openai.apy_key = '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'
 #model_engine = 'gpt-3.5-turbo' # You can choose a different model if desired
 model_engine = 'text-davinci-002'
 temperature = 0.3 
