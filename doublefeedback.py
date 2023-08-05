@@ -45,30 +45,30 @@ def calculate_docking_score(smiles):
         print(f"SMILES Parse Error: {e}. Skipping molecule: {smiles}")
         return None
     if molecule is not None:
-        # Generate 2D coordinates for the molecule
+        
         try:
             AllChem.Compute2DCoords(molecule)
         except Exception as e:
             print(f"Compute2DCoords Error: {e}. Skipping molecule: {smiles}")
             return None
 
-        # Generate a 3D conformation of the molecule using the ETKDG method
+        
         AllChem.EmbedMolecule(molecule, AllChem.ETKDG())
 
-        # Optimize the 3D conformation
+        
         try:
             AllChem.MMFFOptimizeMolecule(molecule)
         except Exception as e:
             print(f"MMFFOptimizeMolecule Error: {e}. Skipping molecule: {smiles}")
             return None
 
-        # Generate a PDB file from the molecule
+        # generate a PDB file from the molecule
         pdb_filename = '/home/datalab/BioLLM/ligand.pdb'
         writer = Chem.PDBWriter(pdb_filename)
         writer.write(molecule)
         writer.close()
 
-        # Run the gnina docking script
+       
         #/home/datalab/gnina --config JAK2_config.txt --ligand /home/datalab/BioLLM/chatgpt/${b}.sdf --out /home/datalab/BioLLM/chatgpt_output_sdf/${b}_out.sdf --log /home/datalab/BioLLM/chatgpt_active_output_logs/${b}_log.txt --cpu 4 --num_modes 1
 
         #!./gnina -r /content/4IVA.pdb -l /content/ligand.smi --autobox_ligand /content/ligand.smi -o docked.sdf --seed 0
@@ -188,7 +188,7 @@ for i in range(1, num_generations):
         new_molecules.append(new_mol)
         print("new molecules", new_mol)
     
-    #Calculate docking scores
+    #clculate docking scores
     docking_scores = []
     for mol in new_molecules:
         docking_score = calculate_docking_score(mol)
@@ -201,7 +201,7 @@ for i in range(1, num_generations):
         print("QED score", qed_score)
         qed_scores.append(qed_score)
     
-    #Calculate RADcores
+    #calculate RADcores
     mw_scores = []
     logp_scores = []
     radscores = []
@@ -218,7 +218,7 @@ for i in range(1, num_generations):
         # except:
         #     continue
     
-    #Select molecules based on upper quartiles of docking scores and RADcores
+    #select molecules based on upper quartiles of docking scores and RADcores
     filtered_docking_scores = [score for score in docking_scores if score is not None]
     filtered_mw_scores = [score for score in mw_scores if score is not None]
     filtered_logp_scores = [score for score in logp_scores if score is not None]
