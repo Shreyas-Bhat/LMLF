@@ -7,11 +7,10 @@ import random
 import json
 from rdkit.Chem import Descriptors, QED
 from rdkit.Chem import rdMolDescriptors as rdmd
-#{"label": "1", "smiles": "O=c1[nH]c2cnc(-n3cnc4ccc(F)cc43)nc2n1Cc1cccc(F)c1F"}
 # Set up your API key and model parameters
-#openai.api_key = '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'
-openai.api_key = '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'
-model_engine = 'text-davinci-002' # You can choose a different model if desired
+
+openai.api_key = ''
+model_engine = 'text-davinci-003' # You can choose a different model if desired
 temperature = 0.3 # Controls the "creativity" of the generated molecules
 num_generations = 20# The number of times to generate new molecules and feed them back into the modelcond
 import openai
@@ -29,12 +28,10 @@ import sys
 sys.path.append(os.path.join(RDConfig.RDContribDir, 'SA_Score'))
 import sascorer
 
-directory_path = '/home/datalab/BioLLM/'
-target_file_path = '/home/datalab/BioLLM/dockingdrd2.jsonl'
-output_file_path = '/home/datalab/BioLLM/20kdrd2feedback_data.csv'
+directory_path = ''
+target_file_path = ''
+output_file_path = ''
 
-# radscore_df = pd.read_csv('/home/datalab/BioLLM/radscores.csv')
-# dockscore_df = pd.read_csv('/home/datalab/BioLLM/dockscores.csv')
 
 def calculate_docking_score(smiles):
     try:
@@ -63,18 +60,15 @@ def calculate_docking_score(smiles):
             return None
 
         # generate a PDB file from the molecule
-        pdb_filename = '/home/datalab/BioLLM/ligand.pdb'
+        pdb_filename = './ligand.pdb'
         writer = Chem.PDBWriter(pdb_filename)
         writer.write(molecule)
         writer.close()
 
-       
-        #/home/datalab/gnina --config JAK2_config.txt --ligand /home/datalab/BioLLM/chatgpt/${b}.sdf --out /home/datalab/BioLLM/chatgpt_output_sdf/${b}_out.sdf --log /home/datalab/BioLLM/chatgpt_active_output_logs/${b}_log.txt --cpu 4 --num_modes 1
 
-        #!./gnina -r /content/4IVA.pdb -l /content/ligand.smi --autobox_ligand /content/ligand.smi -o docked.sdf --seed 0
-        cmd = ['/home/datalab/gnina', '--config', 'DRD2_config.txt', '--ligand', '/home/datalab/BioLLM/ligand.pdb', '--out', 'output.sdf', '--log', '/home/datalab/BioLLM/threshold_output_log.txt', '--cpu', '4', '--num_modes', '1']
+        cmd = ['./gnina', '--config', 'DRD2_config.txt', '--ligand', './ligand.pdb', '--out', 'output.sdf', '--log', './threshold_output_log.txt', '--cpu', '4', '--num_modes', '1']
         # 
-        #cmd = ['/home/datalab/gnina', '-r', '/home/datalab/BioLLM/4IVA.pdb', '-l', '/home/datalab/BioLLM/ligand.pdb', '--autobox_ligand', '/home/datalab/BioLLM/ligand.pdb', '-o', '/content/docked.txt', '--seed', '0']
+        #cmd = ['./gnina', '-r', '.4IVA.pdb', '-l', './ligand.pdb', '--autobox_ligand', './ligand.pdb', '-o', '/content/docked.txt', '--seed', '0']
 
         print("Docking Command:", ' '.join(cmd))
         # try:
