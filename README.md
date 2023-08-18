@@ -16,5 +16,5 @@ conda activate lmlf
 ```
 3. Run the program
 ```bash
-python feedback.py
+python nofeedback.py
 ```
