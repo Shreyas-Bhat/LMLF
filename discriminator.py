@@ -66,44 +66,8 @@ class SmilesDataset(torch.utils.data.Dataset):
     def __len__(self):
         return len(self.labels)
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-# import ast 
-# smiles_str = json.load(open('/home/f20190969/BioLLM/data/folds.json'))
-# smiles_dict=json.loads(smiles_str)-wont work with single quotes
-# smiles_dict=ast.literal_eval(smiles_str)
-#print("dict:", smiles_dict[0])
-
-# fp=open('/home/f20190969/BioLLM/data/output_class_single.txt', 'r')
-# alldata=fp.readlines()
-# #print(alldata)
-# fp.close()
-
 
 # from transformers.trainer import DataCollatorWithPadding
-
-# def generate_dataset(tokenizer, train_filename, test_filename):
-    #print(smiles_dict)
-    # train_indices=smiles_dict[fold]['Train']
-    # test_indices=smiles_dict[fold]['Test']
-    # train_data=[alldata[i]+'\n' for i in train_indices]
-    # test_data=[alldata[i]+'\n' for i in test_indices]
-    # fp=open('/home/datalab/BioLLM/data/smiles_total.txt', 'w')
-    # fp.writelines(train_data)
-    # fp.close()
-    # fp=open('/home/datalab/BioLLM/data/test_smiles.txt', 'w')
-    # fp.writelines(test_data)
-    # fp.close() 		
-    
-    # train_samples, train_labels = readsmiles('/home/datalab/BioLLM/data/smiles_total_4.txt')
-    # print(len(train_labels))
-    # test_samples, test_labels = readsmiles('/home/datalab/BioLLM/data/test_smiles4.txt')
-    # train_samples, val_samples, train_labels, val_labels  = train_test_split(train_samples,train_labels, test_size=0.1)
-    # train_encodings = tokenizer(train_samples, truncation=True, padding = True)
-    # val_encodings = tokenizer(val_samples, truncation = True, padding = True)
-    # test_encodings = tokenizer(test_samples, truncation = True, padding = True)
-    # train_dataset = SmilesDataset(train_encodings, train_labels)
-    # val_dataset = SmilesDataset(val_encodings, val_labels)
-    # test_dataset = SmilesDataset(test_encodings, test_labels)
-    # return train_dataset, val_dataset, test_dataset
 
 
 # from transformers import DataCollatorWithPadding
@@ -119,7 +83,7 @@ device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 #     data_collator = DataCollatorWithPadding(tokenizer=tokenizer, return_tensors="pt")
 #     tokenizer.pad_token = tokenizer.eos_token
-#     train_dataset, val_dataset, test_dataset = generate_dataset(tokenizer, '/home/datalab/BioLLM/data/smiles_total_4.txt', '/home/datalab/BioLLM/data/test_smiles4.txt')
+#     train_dataset, val_dataset, test_dataset = generate_dataset(tokenizer, './smiles_total_4.txt', './test_smiles4.txt')
 #     model=GPT2ForSequenceClassification.from_pretrained("gpt2")
 #     model.config.pad_token_id = model.config.eos_token_id
 #     model.to(device)
@@ -172,13 +136,13 @@ device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 from transformers import pipeline
 from tqdm.auto import tqdm
 fold = 0 
-test_samples = readsmiles('/home/datalab/BioLLM/results_smiles_gpt2_10000_1.txt')
+test_samples = readsmiles('./results_smiles_gpt2_10000_1.txt')
 print(test_samples)
 #model=torch.load("fold"+str(fold)+"gpt2_single.pt")
 #device=torch.device("cpu")
 #from transformers.pipelines.pt_utils import KeyDataset
 # model.cuda()
-model=torch.load("/home/datalab/BioLLM/gpt2_disc_4.pt")
+model=torch.load("./gpt2_disc_4.pt")
 from transformers import pipeline
 from tqdm.auto import tqdm
 device=torch.device("cuda")
@@ -220,22 +184,16 @@ with open(csv_file, mode='w') as file:
 from evaluate import evaluator
 import datasets
 from datasets import Dataset
-# fold = 0
-# #torch.save(model,"fold"+str(fold)+"gpt2.pt")
-# task_evaluator=evaluator('text-classification')
-# model=torch.load("fold"+str(fold)+"gpt2_single.pt")
-#train_dataset, val_dataset, test_dataset = generate_dataset(smiles_dict, fold, alldata, tokenizer, '/home/f20190969/BioLLM/data/train_smiles_currentfold.txt', '/home/f20190969/BioLLM/data/test_smiles_currentfold.txt')
-#print(test_dataset, "here")
     
-# train_samples, train_labels = readsmiles('/home/f20190969/BioLLM/data/train_smiles_currentfold.txt')
-# test_samples, test_labels = readsmiles('/home/f20190969/BioLLM/data/test_smiles_currentfold.txt')
+# train_samples, train_labels = readsmiles('./train_smiles_currentfold.txt')
+# test_samples, test_labels = readsmiles('./test_smiles_currentfold.txt')
 # train_samples, val_samples, train_labels, val_labels = train_test_split(train_samples, train_labels, test_size=0.1)
 # train_encodings = tokenizer(train_samples, truncation=True, padding = True)
 # val_encodings = tokenizer(val_samples, truncation = True, padding = True)
 # test_encodings = tokenizer(test_samples, truncation = True, padding = True)
 # import pyarrow as pa
 # import pandas as pd 
-# df = pd.read_csv('/home/f20190969/BioLLM/data/test_smiles_currentfold.csv')
+# df = pd.read_csv('./test_smiles_currentfold.csv')
 # # ds = Dataset(df)
 # def convert_to_table(smiles_dataset):
 #     # Extract the data from SmilesDataset object
@@ -248,7 +206,7 @@ from datasets import Dataset
 # table = convert_to_table(df)
 # ds = Dataset(table)
 # from datasets import load_dataset
-# dataset = load_dataset('csv', data_files = {'train': ['/home/datalab/BioLLM/data/smiles_total_withsplit.csv'], 'test': '/home/datalab/BioLLM/data/test_smiles_withsplit.csv'})
+# dataset = load_dataset('csv', data_files = {'train': ['./smiles_total_withsplit.csv'], 'test': './test_smiles_withsplit.csv'})
 # print(dataset['train'][0])
 # results = task_evaluator.compute(
 
