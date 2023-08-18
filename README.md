@@ -6,7 +6,7 @@ git clone "repo-url"
 ```
 2. Build environment
 ```bash
-cd LMLF\
+cd LMLF/
 ```
 ```bash
 conda env create --name lmlf --file=environments.yml
