@@ -39,8 +39,8 @@ def readsmiles(datafile):
         labels.append(count)
     return samples, labels
 		
-train_samples, train_labels = readsmiles('/home/datalab/BioLLM/data/allsmiles.txt')
-test_samples, test_labels = readsmiles('/home/datalab/BioLLM/data/allsmiles_2.txt')
+train_samples, train_labels = readsmiles('')
+test_samples, test_labels = readsmiles('')
 # print("samples", train_samples, "labels", train_labels)
 
 # from sklearn.model_selection import train_test_split
@@ -132,7 +132,7 @@ trainer = Trainer(
     data_collator=data_collator
 )
 
-# trainer.train('/home/datalab/BioLLM/results_gen_single_gpt2_all/checkpoint-681500')
+# trainer.train('')
 # fold = 1
 # torch.save(model, str(fold)+"gpt2_all.pt")
 from torch.utils.data import DataLoader
@@ -158,7 +158,7 @@ model.eval()"""
 
 
 
-model=torch.load("/home/datalab/BioLLM/1gpt2_all.pt")
+model=torch.load("")
 from transformers import pipeline
 from tqdm.auto import tqdm
 # device=torch.device("cuda")
@@ -167,7 +167,7 @@ from tqdm.auto import tqdm
 # # from transformers.pipelines.pt_utils import KeyDataset
 # #model.cuda()
 # # import csv 
-# model_name = "/home/datalab/BioLLM/results_gen_single_gpt2_all/checkpoint-189000"
+# model_name = ""
 # model = AutoModelForCausalLM.from_pretrained(model_name)
 
 generator = pipeline(task="text-generation",  model=model.to('cpu'), tokenizer=tokenizer, temperature=0.8)
@@ -206,8 +206,8 @@ k = 5  # set the value of k
 # generator("0 $ ")
 # from transformers import pipeline
 # from tqdm.auto import tqdm
-# model=torch.load("/home/f20190969/BioLLM/fold0gpt2.pt")
-# test_samples, test_labels = readsmiles('/home/f20190969/BioLLM/generated_text_and_classes_1.txt')
+# model=torch.load("")
+# test_samples, test_labels = readsmiles('')
 # # for i in range(50):
 # #     print(test_samples[i])
 # classifier = pipeline(task="text-classification",  model=model, tokenizer=tokenizer)
