@@ -28,8 +28,8 @@ import sys
 sys.path.append(os.path.join(RDConfig.RDContribDir, 'SA_Score'))
 import sascorer
 
-directory_path = ''
-target_file_path = ''
+directory_path = './LMLF/'
+target_file_path = './LMLF/one-box/drd2.jsonl'
 output_file_path = ''
 
 
