@@ -1,0 +1,109 @@
+{"label": "1", "smiles": "CC(C)CC(NC(=O)C1CCCN1)C(=O)NCC(N)=O"}
+{"label": "1", "smiles": "Nc1nc2cc3c(cc2s1)CCN(CCO)CC3"}
+{"label": "1", "smiles": "Cn1c(N2CCOCC2)nc2c(CN3CCN(c4ccccc4)CC3)c[nH]c2c1=O"}
+{"label": "1", "smiles": "COc1ccccc1N1CCNCC1"}
+{"label": "1", "smiles": "O=C1N(CC2CCCCN2)CCN1c1cccnc1"}
+{"label": "1", "smiles": "CCN(CC)CCNC(=O)c1cc(S(C)(=O)=O)ccc1OC"}
+{"label": "1", "smiles": "CNC1Cc2cccc3ncn(c23)C1"}
+{"label": "1", "smiles": "COc1ccccc1N1CCN(C)CC1"}
+{"label": "1", "smiles": "COc1cccc(CNc2cccn3nc(Nc4ccncc4)nc23)c1"}
+{"label": "0", "smiles": "O=C1c2ccccc2S(=O)(=O)N1CCCCN1CCN(c2ncccn2)CC1"}
+{"label": "0", "smiles": "Cn1c(=O)cnn(CCCCN2CCN(c3ccccc3OCCF)CC2)c1=O"}
+{"label": "0", "smiles": "CN(C)C1Cc2cccc3nc(O)n(c23)C1 "}
+{"label": "1", "smiles": "CNC1Cc2cccc3nc(O)n(c23)C1 "}
+{"smiles": "CN1CCCn2cnc3cccc(c32)C1", "label": "1"}
+"\n"
+{"smiles": "CC(C)CC(NC(=O)C1CCCN1)C(=O)NCC(N)=O", "label": "1"}
+"\n"
+{"smiles": "Nc1cccc(CNc2cccn3nc(Nc4ccncc4)nc23)c1", "label": "1"}
+"\n"
+{"smiles": "Cn1c(=O)cnn(CCCCN2CCN(c3ccccc3OCCF)CC2)c1=O", "label": "1"}
+"\n"
+{"smiles": "Cn1c(C2CCOCC2)nc2c(CN3CCN(c4ccccc4)CC3)c[nH]c2c1=O", "label": "1"}
+"\n"
+{"smiles": "COc1ccccc1N1CCNCC1", "label": "1"}
+"\n"
+{"smiles": "CCN1CCCOc2ccc(S(C)(=O)=O)cc2C(=O)NCC1", "label": "1"}
+"\n"
+{"smiles": "CCN(C)C1=C(C#N)C(=O)N(Cc2ccc(Cl)cc2)C1=O", "label": "1"}
+"\n"
+{"smiles": "Cn1c(N2CCOCC2)nc2c(CN3CCN(c4ccccc4)CC3)c[nH]c2c1=O", "label": "1"}
+"\n"
+{"smiles": "CC1CN(CCO)CCc2cc3sc(N)nc3cc21", "label": "1"}
+"\n"
+{"smiles": "O=C(NC1CCC(C(=O)N2CCCCC2)C2NN(C3CCNCC3)CCN2C1)C1CCCCN1", "label": "1"}
+"\n"
+{"smiles": "Cn1c(N2CCOCC2)nc2c(CN3CCN(c4ccccc4)CC3)c[nH]c2c1=O", "label": "1"}
+"\n"
+{"smiles": "Nc1nc2cc3c(cc2s1)CCN(CCO)CC3CCO", "label": "1"}
+"\n"
+{"smiles": "N#CN1CCC(=O)N(C2CCCC(Cl)C2)C1=O", "label": "1"}
+"\n"
+{"smiles": "Cn1c(=O)cnn(CCCCN2CCN(c3ccc(Cl)cc3F)CC2)c1=O", "label": "1"}
+"\n"
+{"smiles": "CN1c2ccccc2C(=O)N2CCCC1C2", "label": "1"}
+"\n"
+{"smiles": "CN1CCC(C#N)CC1", "label": "1"}
+"\n"
+{"smiles": "O=C(CN1CCCCC1)Nc1ccc(CN2CCN(c3ccccc3)CC2)cc1", "label": "1"}
+"\n"
+{"smiles": "CS(=O)(=O)c1ccc2c(c1)C(=O)NCCN1CCCCC(CC1)O2", "label": "1"}
+"\n"
+{"smiles": "CC(C)CC(NC(=O)C1CCCN1)C(=O)NCC(N)=O", "label": "1"}
+"\n"
+{"smiles": "CCN(CC)CCNC(=O)c1cc(S(C)(=O)=O)ccc1OC", "label": "1"}
+"\n"
+{"smiles": "Nc1ccccc1C1CCNCC1", "label": "1"}
+"\n"
+{"smiles": "CN1Cn2c(O)nc3cccc1c32", "label": "1"}
+"\n"
+{"smiles": "CCN(C)C1Cc2cccc3nc(O)n(c23)C1", "label": "1"}
+"\n"
+{"smiles": "CC(C)CCC(NC(=O)C1CCCN1)C(=O)NCC(N)=O", "label": "1"}
+"\n"
+{"smiles": "Cn1c(N2CCOCC2)nc2c(CN3CCN(c4ccccc4)CC3)c[nH]c2c1=O", "label": "1"}
+"\n"
+{"smiles": "CCN1CCCOc2ccc(S(C)(=O)=O)cc2C(=O)NCC1", "label": "1"}
+"\n"
+{"smiles": "Cn1c(=O)cnn(CCCCN2CCN(c3ccccc3OCCF)CC2)c1=O", "label": "1"}
+"\n"
+{"smiles": "CN1C(=O)C2NCC(CN3CCN(C4CCCCC4)CC3)C2NC1N1CCOCC1", "label": "1"}
+"\n"
+{"smiles": "CS(=O)(=O)c1ccc2c(c1)C(=O)NCCN1CCCCC(CC1)O2", "label": "1"}
+"\n"
+{"smiles": "Nc1nc2cc3c(cc2s1)CCN(CCO)CC3N", "label": "1"}
+"\n"
+{"smiles": "c1cncc(C2CCCN2C2CCCNC2)c1", "label": "1"}
+"\n"
+{"smiles": "CCN1CCN(C)CC1", "label": "1"}
+"\n"
+{"smiles": "CC(C)CC(NC(=O)C1CCCN1)C(=O)NCC(N)=O", "label": "1"}
+"\n"
+{"smiles": "C1CCC(N2CCNC2)C1", "label": "1"}
+"\n"
+{"smiles": "O=C(CN1CCCCC1)Nc1ccc(CN2CCN(c3ccccc3)CC2)cc1", "label": "1"}
+"\n"
+{"smiles": "C1CCN(CCC(CC2CCCCN2)N2CCN(C3CCCCN3)C2)CC1", "label": "1"}
+"\n"
+{"smiles": "CC(C)(NC(=O)C1CCCN1)C(=O)NCC(N)=O", "label": "1"}
+"\n"
+{"smiles": "CCN1CCC(N)CC1", "label": "1"}
+"\n"
+{"smiles": "Cn1c(=O)cnn(CCCCN2CCN(c3ccccc3OCCF)CC2)c1=O", "label": "1"}
+"\n"
+{"smiles": "C1CCC(N2CCN(CCN3CCCC3)CC2)CC1", "label": "1"}
+"\n"
+{"smiles": "c1cncc(N2CCN(CC3CCCCN3)C2)c1", "label": "1"}
+"\n"
+{"smiles": "C=C(CN1CCCCC1)Nc1ccc(CN2CCN(c3ccccc3)CC2)cc1", "label": "1"}
+"\n"
+{"smiles": "O=C1c2ccccc2CC2CCCN1C2", "label": "1"}
+"\n"
+{"smiles": "O=C(CN1CCCCC1)Nc1ccc(CN2CCN(c3ccccc3)CC2)cc1", "label": "1"}
+"\n"
+{"smiles": "OCCC1CN(CCO)CCC2=C1C1=NCSC1=C2", "label": "1"}
+"\n"
+{"smiles": "Nc1cccc(CNc2cccn3nc(Nc4ccncc4)nc23)c1", "label": "1"}
+"\n"
+{"smiles": "Cn1c(=O)cnn(CCCCN2CCN(c3ccccc3OCCl)CC2)c1=O", "label": "1"}
+"\n"
