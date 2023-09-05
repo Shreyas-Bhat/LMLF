@@ -105,8 +105,8 @@ for i in range(1, num_generations):
                 smiles = Chem.MolToSmiles(mol)
                 if smiles not in unique_molecules:
                     unique_molecules.add(smiles)
-                    mw = Descriptors.MolWt(mol)
-                    logp = Descriptors.MolLogP(mol)
+                    mw = rdkit.Chem.Descriptors.MolWt(mol)
+                    logp = rdkit.Chem.Descriptors.MolLogP(mol)
                     sas = sascorer.calculateScore(mol)
                     print(mw, logp, sas, )
                     if (
